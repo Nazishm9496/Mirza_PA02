@@ -3,6 +3,7 @@ import java.util.Arrays;
 
 public class Mirza_P1 
 {
+	// this method encrypts the entered data
 	public static void encrypt(String user)
 	  {
 	    int [] data = new int [4];
@@ -24,6 +25,7 @@ public class Mirza_P1
 	    }
 	    System.out.print("\n");
 	  }
+	// This method decrypts the entered data
 	  public static void decrypt(String again)
 	  {
 	    int [] info = new int [4];
